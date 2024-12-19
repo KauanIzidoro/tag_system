@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagSystemAPI", "TagSystemAPI\TagSystemAPI.csproj", "{ECFE9866-80F7-4691-B524-37EF9DD07724}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECFE9866-80F7-4691-B524-37EF9DD07724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFE9866-80F7-4691-B524-37EF9DD07724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFE9866-80F7-4691-B524-37EF9DD07724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFE9866-80F7-4691-B524-37EF9DD07724}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {532B4241-51C7-42CC-AF97-F5F5EE857BF3}
+	EndGlobalSection
+EndGlobal

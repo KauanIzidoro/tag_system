@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+    @apply flex h-10 w-10 shrink-0 items-center justify-center rounded-lg
+    text-muted-foreground transition-colors hover:text-foreground;
+}
+
+.sidebar.active {
+    @apply bg-gray-100;
+  }
+  
+.dark .sidebar.active {
+    @apply bg-gray-800;
+  }
+
+.chart-container {
+    position: relative;
+}
+
+.chart-container .p-chart-legend {
+    mix-blend-mode: difference; /* Aplica o blend mode */
+    color: white; /* Cor padrão para contraste */
+}
